@@ -18,4 +18,4 @@ print("Hasil penggabungan {} & {} = {}".format(a, b, a + b))
 # b = int(b)
 
 # Perhatikan bahwa operasi pembagian akan menghasilkan float, bukan int
-print("Hasil penjualan {} / {} = {}".format(a, b, a / b))
+print("Hasil pembagian {} / {} = {}".format(a, b, a / b))

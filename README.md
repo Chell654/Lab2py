@@ -47,32 +47,29 @@ keyboard.
 <img src ="screenshot progaraman/ss3.png" width="500px">
 
 
- # Input nilai variable
- a = input("Masukkan nilai a: ")
- b = input("Masukkan nilai b: ")
+  # Input nilai variable
+  a = input("Masukkan nilai a: ")
+  b = input("Masukkan nilai b: ")
 
- # Cetak nilai variable
- print("Variable a =", a)
- print("Variable b =", b)
+  # Cetak nilai variable
+  print("Variable a =", a)
+  print("Variable b =", b)
 
- # Cetak hasil operasi kedua variable dengan string format
- print("Hasil penggabungan {0} & {1} ={2}".format(a,b, a+b))
+  # Cetak hasil operasi kedua variable dengan string format
+  print("Hasil penggabungan {0} & {1} ={2}".format(a,b, a+b))
 
- # Anda harus mengonversi a dan b ke tipe data int sebelum melakukan operasi matematika
- a = int(a)
- b = int(b)
- print("Hasil penjumlahan {0} + {1} = {2}".format(a,b, a + b))
+  # Anda harus mengonversi a dan b ke tipe data int sebelum melakukan operasi matematika
+  a = int(a)
+  b = int(b)
+  print("Hasil penjumlahan {0} + {1} = {2}".format(a,b, a + b))
 
- # Konversi nilai variable sudah dilakukan di atas, jadi tidak perlu dilakukan lagi
- # Perhatikan bahwa operasi pembagian akan menghasilkan float, bukan int
- print("Hasil pembagian {0} / {1} = {2:.2f}".format(a,b, a / b))
+  # Konversi nilai variable sudah dilakukan di atas, jadi tidak perlu dilakukan lagi
+  # Perhatikan bahwa operasi pembagian akan menghasilkan float, bukan int
+  print("Hasil pembagian {0} / {1} = {2:.2f}".format(a,b, a / b))
 
 * *int* berfungsi untuk mendefinisikan sifat perintah menjadi bilangan bulat.
 * *input* berfungsi untuk memasukan kata atau bilangan yang diinginkan.
 * *, a* dan *, b* berfungsi untuk meletakan variabel yang sudah didefinisikan sebelumnya.
 * *{0}*, *{1}* dan *{2}** berfungsi untuk memanggil variabel sesuai urutan.
 * *.format(a,b, a / b))* digunakan untuk mengubah bilangan integer menjadi string atau untuk menggabungkan nilai variabel dengan string
-* *{2:.2f}** digunakan untuk membatasi maksimal 2 angka setelah koma (.) pada bilangan desimal 
-
-## Documentation
-> <p font face="Times New Roman">All associated resources are licensed under the [MIT License](https://mit-license.org/).</p>
+* *{2:.2f}* digunakan untuk membatasi maksimal 2 angka setelah koma (.) pada bilangan desimal
